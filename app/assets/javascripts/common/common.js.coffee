@@ -3,16 +3,16 @@ define [
   "angular-ui-router"
 ], (angular) ->
 
-  #config path for home page
-  angular.module("homeModule", ["ui.router"]).config([
+  #config path for common page
+  angular.module("commonModule", ["ui.router"]).config([
     "$stateProvider"
     ($stateProvider) ->
       $stateProvider.state "home",
         url: "/"
-        templateUrl: "/assets/home/home.html"
-        controller: "HomeController"
+        templateUrl: "/assets/common/common.html"
+        controller: "CommonController"
 
-  ]).controller "HomeController", [
+  ]).controller "CommonController", [
     "$scope"
     "$location"
     ($scope, $location) ->

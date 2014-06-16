@@ -8,7 +8,7 @@ require [
   "ui-bootstrap-tpls"
   "lodash"
   "bootstrap"
-  "home/home"
+  "common/common"
 ], (angular) ->
   "use strict"
 
@@ -18,12 +18,13 @@ require [
     #smart works go here
     $html = angular.element("html")
     angular.module("webApp", [
+      "templates"
       "ui.router"
       "ngResource"
       "ui.bootstrap"
       "ngAnimate"
       "pasvaz.bindonce"
-      "homeModule"
+      "commonModule"
     ]).config ["$urlRouterProvider", "$provide", ($urlRouterProvider, $provide) ->
       $urlRouterProvider.otherwise "/"
 

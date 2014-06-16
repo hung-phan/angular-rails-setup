@@ -9,9 +9,6 @@ gem 'bower-rails'
 gem 'modernizr-rails', '~> 2.7.1'
 # requirejs
 gem 'requirejs-rails'
-# angular rails template
-gem 'angular-rails-templates'
-
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
