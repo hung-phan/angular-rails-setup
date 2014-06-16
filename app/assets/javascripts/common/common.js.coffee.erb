@@ -9,7 +9,7 @@ define [
     ($stateProvider) ->
       $stateProvider.state "home",
         url: "/"
-        templateUrl: "/assets/common/common.html"
+        templateUrl: "<%= asset_path("common/common.html") %>"
         controller: "CommonController"
 
   ]).controller "CommonController", [

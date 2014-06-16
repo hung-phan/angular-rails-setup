@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
+# haml for rails
+gem 'haml'
 # bower dependencies manager for rails
 gem 'bower-rails'
 # modernizr

@@ -11,4 +11,3 @@
 // about supported directives.
 //
 //= require main.js
-//= require angular-rails-templates
