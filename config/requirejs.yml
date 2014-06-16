@@ -1,0 +1,25 @@
+paths:
+  'angular': 'angular/angular'
+  'angular-mocks': 'angular-mocks/angular-mocks'
+  'angular-resource': 'angular-resource/angular-resource'
+  'angular-animate': 'angular-animate/angular-animate'
+  'angular-ui-router': 'angular-ui-router/release/angular-ui-router'
+  'bindonce': 'angular-bindonce/bindonce'
+  'ui-bootstrap-tpls': 'angular-bootstrap/ui-bootstrap-tpls'
+  'jquery': 'jquery/dist/jquery'
+  'lodash': 'lodash/dist/lodash'
+  'bootstrap': 'sass-bootstrap/dist/js/bootstrap'
+shim:
+  'angular':
+    exports: 'angular'
+    deps: ['jquery']
+  'angular-mocks': ['angular']
+  'lodash':
+    exports: '_'
+  'angular-resource': ['angular']
+  'angular-animate': ['angular']
+  'angular-ui-router': ['angular']
+  'bindonce': ['angular']
+  'ui-bootstrap-tpls': ['angular']
+  'bootstrap': ['jquery']
+

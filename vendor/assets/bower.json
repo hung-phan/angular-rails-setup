@@ -1,0 +1,15 @@
+{
+  "name": "dsl-generated dependencies",
+  "dependencies": {
+    "sass-bootstrap": "latest",
+    "font-awesome": "latest",
+    "lodash": "latest",
+    "jquery": "2.1.1",
+    "angular": "latest",
+    "angular-resource": "latest",
+    "angular-bindonce": "latest",
+    "angular-ui-router": "0.2.10",
+    "angular-bootstrap": "latest",
+    "angular-animate": "latest"
+  }
+}
