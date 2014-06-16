@@ -7,7 +7,7 @@ define [
   angular.module("commonModule", ["ui.router"]).config([
     "$stateProvider"
     ($stateProvider) ->
-      $stateProvider.state "home",
+      $stateProvider.state "common",
         url: "/"
         templateUrl: "<%= asset_path("common/common.html") %>"
         controller: "CommonController"
