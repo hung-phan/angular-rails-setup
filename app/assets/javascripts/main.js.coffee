@@ -18,6 +18,7 @@ require [
     #smart works go here
     $html = angular.element("html")
     angular.module("webApp", [
+      "templates"
       "ui.router"
       "ngResource"
       "ui.bootstrap"
