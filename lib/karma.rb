@@ -3,11 +3,6 @@ module Karma
     Dir.mktmpdir do |dir|
       confjs = File.join(dir, "karma.conf.js")
 
-      adapter = case opts[:adapter]
-      when :angular then "ng-scenario"
-      when :jasmine then "jasmine"
-      end
-
       files = <<-EOS
         [
           #{opts[:files].map(&:dump).join(",\n")}
@@ -27,7 +22,7 @@ module Karma
               basePath : '/',
 
               // Fix for "JASMINE is not supported anymore" warning
-              frameworks : ["#{adapter}"],
+              frameworks : ["jasmine", "requirejs"],
 
               files : #{files},
               exclude : [],
