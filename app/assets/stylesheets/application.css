@@ -12,6 +12,6 @@
  *
  *= require sass-bootstrap/lib/bootstrap.scss
  *= require font-awesome/scss/font-awesome.scss
- *= require_tree .
  *= require_self
+ *= require_tree .
  */
