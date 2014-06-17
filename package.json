@@ -20,14 +20,14 @@
   },
   "homepage": "https://github.com/hung-phan/angular-rails-setup",
   "devDependencies": {
-    "karma-script-launcher": "latest",
-    "karma-chrome-launcher": "latest",
-    "karma-firefox-launcher": "latest",
-    "karma-ng-html2js-preprocessor": "latest",
-    "karma-jasmine": "latest",
-    "karma-requirejs": "latest",
-    "karma-coffee-preprocessor": "latest",
-    "karma-phantomjs-launcher": "latest",
-    "karma": "latest"
+    "karma-script-launcher": "*",
+    "karma-chrome-launcher": "*",
+    "karma-firefox-launcher": "*",
+    "karma-ng-html2js-preprocessor": "*",
+    "karma-jasmine": "*",
+    "karma-requirejs": "*",
+    "karma-coffee-preprocessor": "*",
+    "karma-phantomjs-launcher": "*",
+    "karma": "*"
   }
 }

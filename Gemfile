@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 
@@ -10,7 +9,6 @@ gem 'bower-rails'
 gem 'modernizr-rails', '~> 2.7.1'
 # requirejs
 gem 'requirejs-rails'
-
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
