@@ -9,7 +9,6 @@ paths:
   'jquery': 'jquery/dist/jquery'
   'lodash': 'lodash/dist/lodash'
   'bootstrap': 'sass-bootstrap/dist/js/bootstrap'
-  'common': 'common/common'
 shim:
   'angular':
     exports: 'angular'
