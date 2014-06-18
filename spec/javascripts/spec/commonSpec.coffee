@@ -1,7 +1,7 @@
-define [
+require [
   "angular-mocks"
+  "common/common"
 ], ->
-  console.log "hello"
   describe "controller title", ->
     $scope = undefined
     $location = undefined
@@ -19,3 +19,8 @@ define [
     )
     it "should be equal dummy", ->
       expect($scope.pageTitle).toEqual "dummy"
+      return
+
+    return
+
+  return
