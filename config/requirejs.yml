@@ -22,4 +22,3 @@ shim:
   'bindonce': ['angular']
   'ui-bootstrap-tpls': ['angular']
   'bootstrap': ['jquery']
-
