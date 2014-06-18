@@ -1,7 +1,7 @@
 define [
   "angular-mocks"
-  "common"
 ], ->
+  console.log "hello"
   describe "controller title", ->
     $scope = undefined
     $location = undefined
