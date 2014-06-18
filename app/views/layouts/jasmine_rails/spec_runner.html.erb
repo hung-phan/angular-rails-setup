@@ -13,7 +13,7 @@
     <%= yield %>
     <script>
       setTimeout(function () {
-        jasmineEnv.execute();
+        jasmine.getEnv().execute()
       }, 10);
     </script>
   </body>
