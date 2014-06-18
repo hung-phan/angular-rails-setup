@@ -1,17 +1,17 @@
 define [
   "angular-mocks"
-  "common/common"
+  "common"
 ], ->
   describe "controller title", ->
     $scope = undefined
     $location = undefined
-    homeController = undefined
-    beforeEach module("homeModule")
+    commonController = undefined
+    beforeEach module("commonModule")
     beforeEach inject((_$injector_, _$rootScope_) ->
       $scope = _$rootScope_.$new()
       $location = _$injector_.get("$location")
       $controller = _$injector_.get("$controller")
-      homeController = $controller("HomeController",
+      commonController = $controller("CommonController",
         $scope: $scope
         $location: $location
       )
