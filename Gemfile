@@ -11,7 +11,7 @@ gem 'modernizr-rails', '~> 2.7.1'
 gem 'requirejs-rails'
 # jasmine
 group :development, :test do
-  gem 'jasmine'
+  gem 'jasmine-rails'
 end
 
 # Use sqlite3 as the database for Active Record
