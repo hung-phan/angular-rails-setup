@@ -28,11 +28,11 @@ shim:
   'ui-bootstrap-tpls': ['angular']
   'bootstrap': ['jquery']
   'jasmine':
-    exports: 'jasmine'
+    exports: 'window.jasmineRequire'
   'jasmine-html':
     deps: ['jasmine']
-    exports: 'jasmine'
+    exports: 'window.jasmineRequire'
   'jasmine-specs': ['boot']
   'boot':
     deps: ['jasmine', 'jasmine-html']
-    exports: 'jasmine'
+    exports: 'window.jasmineRequire'
