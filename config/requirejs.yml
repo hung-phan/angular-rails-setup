@@ -9,6 +9,11 @@ paths:
   'jquery': 'jquery/dist/jquery'
   'lodash': 'lodash/dist/lodash'
   'bootstrap': 'sass-bootstrap/dist/js/bootstrap'
+  'jasmine': 'jasmine'
+  'jasmine-html': 'jasmine-html'
+  'jasmine-specs': 'jasmine-specs'
+  'json2': 'json2'
+  'boot': 'boot'
 shim:
   'angular':
     exports: 'angular'
@@ -22,3 +27,12 @@ shim:
   'bindonce': ['angular']
   'ui-bootstrap-tpls': ['angular']
   'bootstrap': ['jquery']
+  'jasmine':
+    exports: 'jasmine'
+  'jasmine-html':
+    deps: ['jasmine']
+    exports: 'jasmine'
+  'jasmine-specs': ['boot']
+  'boot':
+    deps: ['jasmine', 'jasmine-html']
+    exports: 'jasmine'
