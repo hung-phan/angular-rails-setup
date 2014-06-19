@@ -14,6 +14,10 @@ group :development, :test do
   gem 'jasmine'
   gem 'jasmine-rails'
 end
+group :development do
+  gem 'guard'
+  gem 'guard-livereload', require: false
+end
 gem 'haml'
 
 # Use sqlite3 as the database for Active Record
