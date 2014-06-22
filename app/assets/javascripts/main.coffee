@@ -8,7 +8,7 @@ require [
   "ui-bootstrap-tpls"
   "lodash"
   "bootstrap"
-  "common/common"
+  "home/home"
 ], (angular) ->
   "use strict"
 
@@ -23,7 +23,7 @@ require [
       "ui.bootstrap"
       "ngAnimate"
       "pasvaz.bindonce"
-      "commonModule"
+      "homeModule"
     ]).config ["$urlRouterProvider", "$provide", ($urlRouterProvider, $provide) ->
       $urlRouterProvider.otherwise "/"
 
@@ -37,7 +37,7 @@ require [
         $delegate.safeApply = (fn) ->
           phase = $delegate.$$phase
           if phase is "$apply" or phase is "$digest"
-            fn()  if fn and typeof fn is "function"
+            fn() if fn and typeof fn is "function"
           else
             $delegate.$apply fn
           return

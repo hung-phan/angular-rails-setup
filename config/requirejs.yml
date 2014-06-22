@@ -1,14 +1,24 @@
 paths:
   'angular': 'angular/angular'
+    # require angular mocks for testing
   'angular-mocks': 'angular-mocks/angular-mocks'
+  # require angular resource for easily handling sending and receiving request
   'angular-resource': 'angular-resource/angular-resource'
+  # require angular animate for easily handling animation. I recommend to use this with tweenmax (bower install --save greensock)
   'angular-animate': 'angular-animate/angular-animate'
+  # require angular for better handling and binding controller
   'angular-ui-router': 'angular-ui-router/release/angular-ui-router'
+  # require bindonce to optimize watch for angular binding [https://github.com/Pasvaz/bindonce]
   'bindonce': 'angular-bindonce/bindonce'
+  # require ui-bootstrap with the embeded template [http://angular-ui.github.io/bootstrap/]
   'ui-bootstrap-tpls': 'angular-bootstrap/ui-bootstrap-tpls'
+  # require jquery
   'jquery': 'jquery/dist/jquery'
+  # require lodash
   'lodash': 'lodash/dist/lodash'
+  # require bootstrap.js to make bootstrap components work
   'bootstrap': 'sass-bootstrap/dist/js/bootstrap'
+  # jasmine boostrap
   'jasmine': 'jasmine'
   'jasmine-html': 'jasmine-html'
   'jasmine-specs': 'jasmine-specs'
