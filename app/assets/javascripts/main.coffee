@@ -9,6 +9,9 @@ require [
   "lodash"
   "bootstrap"
   "home/home"
+  "awesome/awesome"
+  "greet/greet"
+  "number/number"
 ], (angular) ->
   "use strict"
 
@@ -24,6 +27,9 @@ require [
       "ngAnimate"
       "pasvaz.bindonce"
       "homeModule"
+      "awesomeModule"
+      "greetModule"
+      "numberModule"
     ]).config ["$urlRouterProvider", "$provide", ($urlRouterProvider, $provide) ->
       $urlRouterProvider.otherwise "/"
 
